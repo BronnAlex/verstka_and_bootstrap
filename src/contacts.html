@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Контакты</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="dropdown-center">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Меню
+    </button>
+    <nav>
+
+
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="first_page.html">Главная</a></li>
+            <li><a class="dropdown-item" href="category.html">Категории</a></li>
+            <li><a class="dropdown-item" href="#">Заказы</a></li>
+            <li><a class="dropdown-item" href="contacts.html">Контакты</a></li>
+            <li><a class="dropdown-item" href="#">Профиль</a></li>
+            <li><a class="dropdown-item" href="#">Выход</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="row text-center"><h1>Контакты</h1></div>
+<div class="row"> <!-- Основной блок для работы с колонками -->
+    <div class="col-2"></div>
+    <div class="col-8"> <!-- Колонка шириной 8/12 для размещения основного контента -->
+        <div class="row mt-5"> <!-- Дополнительный вложенный блок для работы с колонками -->
+
+            <div class="col-5"> <!-- -->
+                <div class="card text-bg-secondary">
+                    <div class="card-body">
+                        <form>
+                            <h2>Оставьте заявку</h2>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Имя">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="Сообщение" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7"> <!-- Колонка для отображения контактов -->
+                <div class="card text-bg-primary"> <!-- Карточка для визуального отделения вложенных данных -->
+                    <div class="card-body"> <!-- Тело карточки, внутри которого размещаются данные -->
+                        <h2>Наши контакты</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-2"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
